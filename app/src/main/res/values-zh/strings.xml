@@ -1,1 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">隐私开关</string>
 
+    <!-- Quick Settings Tiles -->
+    <string name="tile_privacy_switch">隐私开关</string>
+
+    <!-- Widget -->
+    <string name="widget_name">隐私开关</string>
+    <string name="widget_description">快速隐私切换</string>
+    <string name="widget_privacy_on">已启用</string>
+    <string name="widget_privacy_off">关闭</string>
+
+    <!-- Camera & Microphone Info -->
+    <string name="lock_delay_warning_message">Android 系统不允许在锁屏状态下更改摄像头或麦克风隐私设置。因此，摄像头和麦克风会忽略自定义的锁屏/解锁延迟设置，并在锁屏时立即触发（如果当前未被占用）。\n\n要确保锁屏时自动禁用：\n\n1. 进入 设置 → 安全 → 屏幕锁定\n2. 点击锁定方式旁边的齿轮图标 ⚙️\n3. 将"自动锁定"设置为 5 秒或更长时间\n4. 关闭"电源键立即锁定"选项（如果存在）</string>
+
+    <!-- Airplane Mode Info -->
+    <string name="airplane_mode_info_message">开启飞行模式将关闭 WiFi、蓝牙、移动数据和 NFC，无论这些功能各自的设置如何。\n\n在设备锁屏时使用此模式可获得最高级别的隐私保护。</string>
+
+    <!-- Battery Saver Info -->
+    <string name="battery_saver_info_message">省电模式会减少后台活动，并可能限制某些应用功能。\n\n它不会直接关闭无线模块（WiFi、蓝牙等），但可能影响同步、定位精度和后台处理。\n\n适合在长时间锁屏时延长电池续航。</string>
+
+    <!-- Protection Mode Options -->
+    <string name="only_if_not_manually_set">仅在未手动设置时</string>
+
+    <!-- Debug Logs -->
+    <string name="debug_logs">调试日志</string>
+    <string name="debug_logs_description">将隐私操作记录到文件</string>
+    <string name="view_logs">查看日志</string>
+    <string name="share_logs">分享</string>
+    <string name="clear_logs">清除</string>
+    <string name="no_logs_to_share">没有可分享的日志</string>
+    <string name="no_logs_to_view">暂无日志</string>
+    <string name="logs_cleared">日志已清除</string>
+    <string name="debug_logs_title">调试日志</string>
+
+    <!-- Footer -->
+    <string name="open_source_message">免费、开源、无广告，只为保护你的隐私。\n如果觉得有用，欢迎捐赠支持后续开发。</string>
+
+    <!-- Accessibility Service -->
+    <string name="accessibility_service_label">隐私开关 - 侧键支持</string>
+    <string name="accessibility_service_description">让隐私开关能够更早检测到侧键/电源键锁屏，从而使摄像头和麦克风隐私功能在"立即锁定"模式下也能正常工作。该服务不会读取屏幕内容或密码，仅用于检测锁屏界面的出现，以便在键盘锁完全启动前触发隐私操作。</string>
+</resources>
